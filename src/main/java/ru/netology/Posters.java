@@ -1,13 +1,11 @@
 package ru.netology;
+
 public class Posters {
-    private String names;
-    public String getPosterName() {
-        return posterName;
-    }
-    public setPosterName(String posterName) {
+    private String posterName;
+
+    public Posters(String posterName) {
         this.posterName = posterName;
     }
-
 }
 
 
